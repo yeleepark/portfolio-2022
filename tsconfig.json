@@ -1,10 +1,10 @@
 {
   "compilerOptions": {
-    "target": "ES5",// 타입스크립트 파일을 컴하일 했을때 생성되는 자바스크립트의 버전 ex) 'es3', 'es5', 'es2015', 'es2016', 'es2017','es2018', 'esnext' 
+    "target": "ES5",// 타입스크립트 파일을 컴파일 했을때 생성되는 자바스크립트의 버전 ex) 'es3', 'es5', 'es2015', 'es2016', 'es2017','es2018', 'esnext' 
     "module": "ES6", //어떤 방식으로 module을 내보내고 불러올지. 'commonjs' -> require / 'es2015', 'esnext' -> import export / 'amd', 'system'
     "allowJs": true, // js 파일을 ts에서 불러올 수 있는지
     "checkJs": true, // js 파일에서도 에러체크 할지
-    // "strict": true, // stric 관련 모드 전부 on
+    "strict": true, // stric 관련 모드 전부 on
     "lib": ["es2015", "dom", "dom.iterable"],// 타입스크립트 -> 자바스크립트 컴파일할 때 포함될 라이브러리의 목록.
     "removeComments": true, //컴파일시 주석제거 
     "rootDir": "src", // root 디렉토리
