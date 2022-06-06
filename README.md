@@ -1,6 +1,3 @@
-# pure-template
+# portfolio-2022 🥳
 
-```
-yarn install
-yarn start
-```
+This is the source code of my personal website

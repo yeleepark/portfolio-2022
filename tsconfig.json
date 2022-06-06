@@ -11,7 +11,9 @@
     "outDir": "dist", // 컴파일 후 생성되는 자바스크립트 파일이 저장될 디렉토리명
     "jsx": "react-jsx", // tsx 파일을 사용하므로 react가 아닌 react-jsx로 설정
     "sourceMap": true, //빌드시에 map 파일을 생성할지
-    "declaration": true, /* '.d.ts' 파일 생성 여부. */
+    "declaration": true, // '.d.ts' 파일 생성 여부
+    "esModuleInterop": true, // ES6 모듈 사양을 준수하여 CommonJS모듈을 가져오기
+    "moduleResolution": "Node"
   },
   "include": ["src/**/*"] // src 하위 모든 파일을 타입스크립트로 설정
 }
