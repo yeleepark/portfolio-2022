@@ -13,7 +13,8 @@
     "sourceMap": true, //빌드시에 map 파일을 생성할지
     "declaration": true, // '.d.ts' 파일 생성 여부
     "esModuleInterop": true, // ES6 모듈 사양을 준수하여 CommonJS모듈을 가져오기
-    "moduleResolution": "Node"
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
   },
   "include": ["src/**/*"] // src 하위 모든 파일을 타입스크립트로 설정
 }
