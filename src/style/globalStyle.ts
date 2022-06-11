@@ -1,12 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
+import reset from 'styled-reset';
 
 const GlobalStyle = createGlobalStyle`
-html {
-    height: 100%
-}
-* {
-    padding: 0;
-    margin: 0
-}
+    ${reset}
 `;
 export default GlobalStyle;
